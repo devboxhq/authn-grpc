@@ -1,4 +1,4 @@
-# Keratin AuthN
+# Keratin AuthN GRPC
 
 [![Keratin Pangolin](https://keratin.tech/pangolin-logo-dark.gif)](https://keratin.tech)
 A modern authentication backend service. ([https://keratin.tech](https://keratin.tech))
@@ -7,14 +7,16 @@ A modern authentication backend service. ([https://keratin.tech](https://keratin
 
 ## Related
 
-This repository builds a backend Go service that provides secured endpoints related to accounts and passwords. You must integrate it with your application's frontend(s) and backend(s).
+This repository is a GRPC fork for [keratin/authn-serve](https://github.com/keratin/authn-server). It builds a backend GRPC service in Go that provides secured endpoints related to accounts and passwords. You must integrate it with your application's frontend(s) and backend(s).
 
-Client libraries are currently available for:
+Client libraries are currently available for REST version:
 
 * Backends: [Ruby](https://github.com/keratin/authn-rb) • [Go](https://github.com/keratin/authn-go)
 * Frontends: [JavaScript](https://github.com/keratin/authn-js)
 
 If you are missing a client library, please [submit a request](https://github.com/keratin/authn-server/issues).
+
+After this fork has matured, GRPC related client libraries will be made available!
 
 ## Implementation
 
